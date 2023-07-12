@@ -45,7 +45,14 @@ int main()
 				NumMayor = Num2; 
 			else
 				NumMayor <- Num3;
-		}			
+		
+			//Salida en pantalla
+			cout<<"La suma es ", Suma;
+			cout<<"El promedio es ", Promedio;
+			cout<< "El Menor es " , NumMenor;
+			cout<< "El Mayor es " , NumMayor;
+		}	
+
 	else
 		{
 			cout<<"Los numeros deben ser diferentes";		
